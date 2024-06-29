@@ -1,11 +1,35 @@
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #4285F4;
   box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.573);
   color: #fff;
   text-align: left;
   letter-spacing: 2px;
+  padding: 1px 20px 1px 20px;
   .title {
-    margin: 0;
-    padding: 1.2rem 0 1rem 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-left: 20px;
+  }
+  .logoutButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+    &:hover {
+      background-color: #d32f2f;
+    }
+    &:active {
+      background-color: #b71c1c;
+    }
   }
 }
