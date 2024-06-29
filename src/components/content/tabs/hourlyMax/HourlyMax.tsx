@@ -10,7 +10,7 @@ function HourlyMax() {
   const chartRef = useRef<ChartJS<"line"> | null>(null);
 
   useEffect(() => {
-    fetch("http://3.106.125.85:5000/api/hourly_max")
+    fetch("/api/hourly_max")
       .then((response) => response.json())
       .then((data: StockData[]) => {
         const labels = data

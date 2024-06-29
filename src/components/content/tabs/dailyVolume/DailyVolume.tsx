@@ -10,7 +10,7 @@ function DailyVolume() {
   const chartRef = useRef<ChartJS<"bar"> | null>(null);
 
   useEffect(() => {
-    fetch("http://3.106.125.85:5000/api/daily_volume")
+    fetch("/api/daily_volume")
       .then((response) => response.json())
       .then((data: StockData[]) => {
         const labels = data.filter(item => item.stock_symbol === "AAPL").map(item => item.date);

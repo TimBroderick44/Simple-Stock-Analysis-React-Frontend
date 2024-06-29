@@ -11,7 +11,7 @@ function MovingAverage() {
   const chartRef = useRef<ChartJS<"line"> | null>(null);
 
   useEffect(() => {
-    fetch("http://3.106.125.85:5000/api/moving_avg_close")
+    fetch("/api/moving_avg_close")
       .then((response) => response.json())
       .then((data: StockData[]) => {
         const labels = data

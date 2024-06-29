@@ -28,7 +28,7 @@ function Content() {
         <Tab onClick={() => setActiveTab('home')}>Home</Tab>
         {isLoggedIn && (
           <>
-            <Tab onClick={() => handleTabClick('daily_avg')}>Daily Average</Tab>
+            <Tab onClick={() => handleTabClick('daily_avg')}>Daily Averages</Tab>
             <Tab onClick={() => handleTabClick('hourly_max')}>Hourly Max</Tab>
             <Tab onClick={() => handleTabClick('daily_volume')}>Daily Volume</Tab>
             <Tab onClick={() => handleTabClick('moving_avg')}>Moving Average</Tab>
