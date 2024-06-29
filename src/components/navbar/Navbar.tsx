@@ -7,7 +7,7 @@ function Navbar() {
   const { isLoggedIn, logout } = useAuth();
 
   const handleLogout = async () => {
-    const token = localStorage.getItem('token');
+    const token = sessionStorage.getItem('token');
     const response = await fetch('/logout', {
       method: 'POST',
       headers: {

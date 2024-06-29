@@ -7,19 +7,19 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
+    const token = sessionStorage.getItem('token');
     if (token) {
       setIsLoggedIn(true);
     }
   }, []);
 
   const login = (token: string) => {
-    localStorage.setItem('token', token);
+    sessionStorage.setItem('token', token);
     setIsLoggedIn(true);
   };
 
   const logout = () => {
-    localStorage.removeItem('token');
+    sessionStorage.removeItem('token');
     setIsLoggedIn(false);
     window.location.reload();
   };
