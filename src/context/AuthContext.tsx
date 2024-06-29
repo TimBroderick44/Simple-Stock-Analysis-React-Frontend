@@ -1,5 +1,3 @@
-// AuthContext.tsx
-
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { AuthContextProps, AuthProviderProps } from '../types/authContext/AuthContext';
 

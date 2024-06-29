@@ -7,7 +7,7 @@ import "../../../../chartConfig";
 
 function MovingAverage() {
   const [chartData, setChartData] = useState<any>(null);
-  const [loading, setLoading] = useState(true); // State for loading status
+  const [loading, setLoading] = useState(true); 
   const chartRef = useRef<ChartJS<"line"> | null>(null);
 
   useEffect(() => {
