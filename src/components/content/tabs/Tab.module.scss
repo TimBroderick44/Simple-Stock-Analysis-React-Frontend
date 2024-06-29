@@ -1,0 +1,13 @@
+.tab {
+  position: relative; 
+  cursor:pointer;
+  padding: 5px;
+  font-weight: normal;
+  &:hover {
+    color: #4f515a;
+    text-shadow: 0 0 1px #c5c7cf;
+  }
+  &:active {
+    color: #121212;
+  }
+}
