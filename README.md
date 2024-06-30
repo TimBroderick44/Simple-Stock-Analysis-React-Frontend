@@ -3,7 +3,7 @@
 [https://tim-broderick.com/applevsmicrosoft](https://tim-broderick.com/applevsmicrosoft)
 
 ### NOTE:
-*This is a (much nicer) React / TS frontend for my [Super Simple Analysis](https://github.com/TimBroderick44/Simple-Stock-Analysis) project. Please follow the instructions there before proceeding with this project.*
+*This is a (much nicer) React / TS frontend for my [Super Simple Analysis](https://github.com/TimBroderick44/Simple-Stock-Analysis) project.
 
 This React / TypeScript frontend presents the user with a clear presentation of the Microsoft and Apple stock data through the charts.js library. Using the tabs at the top of the page, the user can easily navigate and find the display of data they require.
 
