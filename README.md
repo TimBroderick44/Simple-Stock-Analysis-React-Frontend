@@ -10,6 +10,7 @@ This React / TypeScript frontend presents the user with a clear presentation of 
 ## Screenshots
 ![Landing Page](./src/assets/react.png) 
 ![Daily Averages](./src/assets/daily_react.png) 
+![Hourly Averages](./src/assets/hourly.png) 
 ![Loading](./src/assets/loading.png) 
 ![Moving Averages](./src/assets/moving.png) 
 
