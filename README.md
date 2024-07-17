@@ -1,6 +1,6 @@
 # Apple Vs Microsoft Stock Analysis
 
-[https://tim-broderick.com/applevsmicrosoft](https://tim-broderick.com/applevsmicrosoft)
+~~(https://tim-broderick.com/applevsmicrosoft)~~ [UNDER MAINTENANCE => Dockerizing ;)]
 
 ### NOTE:
 *This is a (much nicer) React / TS frontend for my [Super Simple Analysis](https://github.com/TimBroderick44/Simple-Stock-Analysis) project.
